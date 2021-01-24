@@ -1,5 +1,6 @@
 # oscourse
 [![Build Status](https://travis-ci.com/vladxyk/LiteSh1.svg?branch=main)](https://github.com/mishafromboyz/oscourse)
+<br>
 <br>Данный проект содержит следующий функционал
 <br>
 <br>   копирование файла - требуется путь до файла и путь до директории, куда нужно его скопировать

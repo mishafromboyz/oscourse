@@ -1,0 +1,12 @@
+[Unit]
+Description=MyServer
+After=syslog.target
+
+[Service]
+Type=forking
+ExecStart=/home/diana/ycheba/os/lab3/server 8001
+Restart=always
+RestartForceExitStatus=11 SIGABRT
+
+[Install]
+WantedBy=multi-user.target

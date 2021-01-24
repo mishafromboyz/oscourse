@@ -1,0 +1,7 @@
+language: cpp
+dist: xenial
+script:
+  - make
+  - make test
+  - make projectTest
+os: linux

@@ -4,7 +4,7 @@ After=syslog.target
 
 [Service]
 Type=forking
-ExecStart=/home/diana/ycheba/os/lab3/server 8001
+ExecStart=/mnt/c/games/ubuntu/osc/litesh1-main/src/server
 Restart=always
 RestartForceExitStatus=11 SIGABRT
 
